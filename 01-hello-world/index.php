@@ -9,7 +9,7 @@
   <h1><?php echo "Hello, World!"; ?></h1>
  
   <p>Meu nome é <?php echo "Mariana"; ?>.</p>
-  <p>Estou aprendendo PHP no curso <?php echo "PHP Básico"; ?>.</p>
+  <p>Estou aprendendo PHP no curso <?php echo "PHP Básico, Informática"; ?>.</p>
 </body>
 </html>
 
