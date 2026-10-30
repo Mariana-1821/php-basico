@@ -12,7 +12,6 @@ $hora = date("H:i:s");
 </head>
 <body>
   <h1>Data e hora do servidor</h1>
-  <p>Hoje é <strong><?= $data ?></strong>.</p>
-  <p>Agora são <strong><?= $hora ?></strong>.</p>
+  <p><?= $mensagem ?></p>
 </body>
 </html>
