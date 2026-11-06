@@ -3,6 +3,8 @@ $peso   = 70.0;   // em kg
 $altura = 1.75;   // em metros 
 
 $erro = "";
+$imcFormatado = "";
+$classificacao = "";
 
 if ($altura <= 0 || $peso <= 0) {
     $erro = "Informe peso e altura devem ser maiores que zero.";
@@ -38,8 +40,6 @@ if ($altura <= 0 || $peso <= 0) {
   <p>Altura: <?= $altura ?> m</p>
   <p>IMC: <strong><?= $imcFormatado ?></strong></p>
   <p>Classificação: <strong><?= $classificacao ?></strong></p>
-
-  <?php endif; ?>
 </body>
 </html>
 
